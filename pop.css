@@ -1,0 +1,104 @@
+
+
+body{
+    background-image: url(./architect-developer-wearing-headset-looking-building-sketch-analyzing-prototype-computer-working-remote-from-home-real-estate-project-businessman-engineer-developing-architectural-structure.jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+    /* filter: blur(8px); */
+    background-repeat: no-repeat;
+}
+
+
+
+#navbar-nav{
+    /* align-items: end; */
+    text-decoration: none;
+    /* text-transform: none; */
+    
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+
+/* 
+#but{
+    width: 20%;
+    margin: 10%;
+} 
+*/
+
+/* SEN DEV TECH  */
+/* YOUTUBE */
+
+/* .nav-link{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+} */
+
+body{
+    font-family: Roboto;
+}
+
+.dropdown-menu li{
+    background-color: #198754;
+    margin: 2px;
+}
+
+.but{
+    font-size: small;
+    margin: 2%;
+    text-align: center;
+}
+
+.arrow{
+    margin: auto;
+    width: 10%;
+    height: 10%;
+}
+
+.nav-link{
+    color: #fff !important;
+    outline: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+#box-but{
+    width: 65%;
+}
+
+#but2{
+    color: #198754;
+}
+
+#but1{
+    color: white;
+}
+
+#cont-but1{
+    width: 38%;
+    margin-right: 8%;
+}
+
+#cont-but2{
+    width: 40%;
+    /* margin: auto; */
+}
+
+a{
+    text-decoration: none !important;
+}
+
+#slog{
+    margin-bottom: 7.5%;
+}
+
+#cont-sal{
+    margin-top: 10%;
+}
