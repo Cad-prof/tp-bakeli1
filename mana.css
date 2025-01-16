@@ -1,16 +1,17 @@
 body{
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
 }
 
 .title{
     color: #ff9d00;
     width: fit-content;
+    padding-top: 8%;
     margin: auto;
     /* border: 20px ; */
     text-transform: uppercase;
@@ -19,14 +20,15 @@ div{
 
 .hor{
     border-color: #09998c;
-    background-color: #09998c;
-    height: 2px;
+    background-color:  #09998c;
+    height: 4px;
 }
 
 .stex{
     font-size: 12px;
     margin: auto;
     text-align: center;
+    padding-inline: 10%;
 }
 
 .cards1{
@@ -56,7 +58,7 @@ div{
 
 } .crd:hover{
     background-color: #ff9d00;
-    transition: 1.75s;
+    transition: 1.25s;
     color: #f1f1f1;
     /* text-shadow: 3px #09998c; */
 }
@@ -65,6 +67,7 @@ div{
 .dico{
     /* margin: auto; */
     padding-inline: 20%;
+    max-width: 99%;
 }
 
 .icon{
@@ -78,6 +81,8 @@ div{
 .min-tit{
     text-transform: uppercase;
     text-align: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .txt{
@@ -87,5 +92,10 @@ div{
     text-align: center;
 }
 
+.yaram{
+    background-color: #f1f1f1;
+    margin-top: 5%;
+    /* width: 100%; */
+}
 
 

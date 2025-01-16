@@ -3,7 +3,7 @@
 body{
     background-image: url(./architect-developer-wearing-headset-looking-building-sketch-analyzing-prototype-computer-working-remote-from-home-real-estate-project-businessman-engineer-developing-architectural-structure.jpg);
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
     background-size: cover; 
     background-position: center; 
     /* filter: blur(8px); */
@@ -40,13 +40,11 @@ body{
     color: white;
 } */
 
-body{
-    font-family: Roboto;
-}
+
 
 .dropdown-menu li{
     background-color: #198754;
-    margin: 2px;
+    /* margin: 2px; */
 }
 
 .but{
