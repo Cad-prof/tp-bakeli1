@@ -1,0 +1,91 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title{
+    color: #ff9d00;
+    width: fit-content;
+    margin: auto;
+    /* border: 20px ; */
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.hor{
+    border-color: #09998c;
+    background-color: #09998c;
+    height: 2px;
+}
+
+.stex{
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+}
+
+.cards1{
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+
+.cards2{
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 1fr 1fr;
+    width: 63%;
+    margin: auto;
+}
+
+.crd{
+    padding: 10%;
+    border-radius: 4px;
+    align-items: center;
+    align-content: center;
+    /* margin: ; */
+    /* align-items: center; */
+    /* align-content: center; */
+
+} .crd:hover{
+    background-color: #ff9d00;
+    transition: 1.75s;
+    color: #f1f1f1;
+    /* text-shadow: 3px #09998c; */
+}
+
+
+.dico{
+    /* margin: auto; */
+    padding-inline: 20%;
+}
+
+.icon{
+    fill: #09998c;
+    margin: auto;
+    
+}
+
+
+
+.min-tit{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.txt{
+    font-size: 11px;
+    color: grey;
+    margin: auto;
+    text-align: center;
+}
+
+
+
