@@ -32,23 +32,23 @@ div{
 }
 
 .cards1{
-    display: grid;
+    display: flex;
     /* flex-direction: row; */
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     width: 90%;
     margin: auto;
 }
 
 .cards2{
-    display: grid;
+    display: flex;
     /* flex-direction: row; */
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     width: 63%;
     margin: auto;
 }
 
 .crd{
-    padding: 10%;
+    padding: 4%;
     border-radius: 4px;
     align-items: center;
     align-content: center;
@@ -61,6 +61,10 @@ div{
     transition: 1.25s;
     color: #f1f1f1;
     /* text-shadow: 3px #09998c; */
+    p{
+        color: #f1f1f1;
+        transition: 1.25s;
+    }
 }
 
 
@@ -99,3 +103,72 @@ div{
 }
 
 
+/*/////////////////////////////////////////////////////*/
+
+
+ /* Style de base pour le conteneur */
+ .corpus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 8%;
+  }
+
+  /* Style pour les cartes */
+  .crd {
+    flex: 1 1 calc(33.333% - 32px); /* 3 cartes par ligne */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    padding: 16px;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  /* Les icônes */
+  .dico {
+    margin-bottom: 16px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    fill:#09998c;
+  }
+
+  /* Media Query pour écrans mobiles */
+  @media screen and  (max-width: 768px) {
+    .crd {
+      flex: 1 1 100%; /* Chaque carte occupe toute la largeur */
+    }
+
+    .cards1{
+      display: flex;
+      flex-direction: column;
+      /* flex-direction: row; */
+      /* grid-template-columns: 1fr 1fr 1fr; */
+      /* width: 90%; */
+      /* margin: auto; */
+  }
+
+  .cards2{
+      display: flex;
+      flex-direction: column;
+      /* flex-direction: row; */
+      /* grid-template-columns: 1fr 1fr; */
+      /* width: 63%; */
+      /* margin: auto; */
+  }
+  
+
+  }
+
+  @media (max-width: 480px) {
+    .corpus {
+      gap: 8px;
+    }
+
+    .crd {
+      padding: 12px;
+    }
+  }
