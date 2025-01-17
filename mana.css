@@ -159,6 +159,17 @@ div{
       /* width: 63%; */
       /* margin: auto; */
   }
+
+  #box-but{
+    flex-direction: column;
+    height: 45%;
+    gap: 5px;
+    
+    .btn{
+      width: 150px;
+      
+    }
+  }
   
 
   }

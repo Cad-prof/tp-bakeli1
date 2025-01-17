@@ -2,7 +2,7 @@
 
 body{
     background-image: url(./architect-developer-wearing-headset-looking-building-sketch-analyzing-prototype-computer-working-remote-from-home-real-estate-project-businessman-engineer-developing-architectural-structure.jpg);
-    position: relative;
+    /* position: relative; */
     /* height: 100vh; */
     background-size: cover; 
     background-position: center; 
@@ -69,25 +69,32 @@ a{
 
 #box-but{
     width: 65%;
+    height: 2%;
+    padding-right: 15%;
+    justify-content: space-around;
 }
 
 #but2{
     color: #198754;
+    width: 30%;
+    justify-content: center;
 }
 
 #but1{
     color: white;
+    width: 30%;
+    justify-content: center;
 }
 
-#cont-but1{
-    width: 38%;
-    margin-right: 8%;
-}
+/* #cont-but1{
+    width: 35%;
+    /* margin-right: 8%; */
+/* }
 
 #cont-but2{
-    width: 40%;
+    width: 35%;
     /* margin: auto; */
-}
+/* } */ 
 
 a{
     text-decoration: none !important;
@@ -100,3 +107,4 @@ a{
 #cont-sal{
     margin-top: 10%;
 }
+
